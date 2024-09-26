@@ -1,0 +1,123 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+}
+
+.companyBar {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    height: auto;
+    margin-right: 10px
+}
+
+.company h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    /* padding: 0; */
+  }
+  
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+  
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.searchContainer {
+    display: flex;
+    align-items: center;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.searchInput {
+    padding: 8px;
+    border: none;
+    font-size: 16px;
+    width: 250px;
+    border-radius: 5px 0 0 5px;
+}
+
+.searchInput::placeholder {
+    color: #888; /* Optional: Change the color of the placeholder text */
+}
+
+.searchIcon {
+    padding: 0 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.btn {
+    padding: 8px 12px;
+    border: none;
+    background-color: #3498db ;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0; 
+}
+
+.btn:hover {
+    background-color: #85c1e9;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    height: 50vh;
+    background: url('background-image.jpg') no-repeat center center/cover; /* Background image */
+    padding-left: 100px;
+}
+
+.text {
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for readability */
+    border-radius: 10px;
+}
+
+.description h1 {
+    padding: 40px;
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    white-space: nowrap;
+}
+
+.description p {
+    font-size: 20px;
+    line-height: 1.6;
+}
