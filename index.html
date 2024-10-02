@@ -21,8 +21,8 @@
             <div class="searchBar">
                 <input type="text" id="conditionInput" placeholder="Enter a destination or keyword" class="searchInput"></li>
                 <span class="searchIcon">🔍</span>
-                <button id='btnSearch' class="btn">Search</button></li>
-                <button id='btnClear'class="btn">Clear</button></li>
+                <button id="btnSearch" class="btn" onclick=searchDisplay()>Search</button></li>
+                <button id="btnClear" class="btn">Clear</button></li>
             </div>
         </div>
     </nav>
@@ -32,6 +32,7 @@
             <p>It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes, while pursuing the desired destination that captivates the heart and ignites a sense of wonder.</p>
             <button id="bookNow" class="btn bookNow" >Book Now</button>
         </div>
+        <div id="recommendation" class="recommendationDiv" style="display:none;"></div>
     </div>
     <script src="./travel_recommendation.js"></script>
 </body>
