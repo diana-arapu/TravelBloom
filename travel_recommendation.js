@@ -1,13 +1,16 @@
-const api = './travel_recommendation_api.json';
-const json = fetch(api);
-
 fetch(api)
     .then(response => {
+        if (!response.ok) {
+            throw new Error
+                (`HTTP error! Status: ${response.status}`);
+        }
         return response.json();
     })
     .then(data => {
-        console.log(data); // Handle the data (e.g., log it or update the UI)
+        console.log(data); 
     })
     .catch(error => {
         console.error('An error occurred with the fetch operation:', error);
     })
+
+fetch('./travel_recommendation_api.json');
