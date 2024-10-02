@@ -1,4 +1,4 @@
-fetch(api)
+fetch('./travel_recommendation_api.json')
     .then(response => {
         if (!response.ok) {
             throw new Error
@@ -12,5 +12,3 @@ fetch(api)
     .catch(error => {
         console.error('An error occurred with the fetch operation:', error);
     })
-
-fetch('./travel_recommendation_api.json');
