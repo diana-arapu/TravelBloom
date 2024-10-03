@@ -162,7 +162,6 @@ nav ul li a {
     max-width: 400px;
     height: calc(100vh - 60px); 
     overflow-y: auto;
-    background-color: #f9f9f9;
     padding: 20px;
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
 }
@@ -199,6 +198,8 @@ nav ul li a {
     color: #666;
     margin-bottom: 15px;
 }
+
+
 
 /* Ensure responsive layout on smaller screens */
 @media (max-width: 768px) {

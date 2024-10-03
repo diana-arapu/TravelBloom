@@ -19,10 +19,10 @@
         </ul>
         <div class="searchContainer">
             <div class="searchBar">
-                <input type="text" id="conditionInput" placeholder="Enter a destination or keyword" class="searchInput"></li>
+                <input type="text" id="conditionInput" placeholder="Enter a destination or keyword"  onfocus="this.value=''" class="searchInput"></li>
                 <span class="searchIcon">🔍</span>
                 <button id="btnSearch" class="btn" onclick=searchDisplay()>Search</button></li>
-                <button id="btnClear" class="btn">Clear</button></li>
+                <button id="btnClear" class="btn" onclick=clearRecommendations()>Clear</button></li>
             </div>
         </div>
     </nav>
